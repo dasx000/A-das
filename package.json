@@ -5,8 +5,8 @@
   "main": "zeeone.js",
   "license": "MIT",
   "scripts": {
-    "start": "node zeeone.js"
-   },
+    "start": "npm i -g pm2 && pm2 start zeeone.js && pm2 save && pm2 logs"
+  },
   "keywords": [
     "whatsapp",
     "2021",
@@ -41,7 +41,7 @@
     "got": "^11.8.3",
     "human-readable": "^0.2.1",
     "hxz-api": "^1.0.1",
-    "instatouch":"^2.3.14",
+    "instatouch": "^2.3.14",
     "jimp": "^0.16.1",
     "jsdom": "^18.1.1",
     "lodash": "^0.1.0",
